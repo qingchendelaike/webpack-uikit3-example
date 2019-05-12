@@ -1,0 +1,30 @@
+{
+  "name": "webpack-uikit3-example",
+  "version": "1.0.0",
+  "description": "webpack4 uikit3 example",
+  "main": "index.js",
+  "author": "new5tt",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack --mode=development",
+    "start": "webpack-dev-server --open --mode=development"
+  },
+  "dependencies": {
+    "clean-webpack-plugin": "^2.0.2",
+    "css-loader": "^2.1.1",
+    "less-loader": "^5.0.0",
+    "minify": "^4.1.1",
+    "uikit": "^3.1.4",
+    "webpack": "^4.31.0",
+    "webpack-cli": "^3.3.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.5.1",
+    "mini-css-extract-plugin": "^0.6.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.1",
+    "postcss": "^7.0.16",
+    "postcss-loader": "^3.0.0",
+    "uglifyjs-webpack-plugin": "^2.1.2",
+    "webpack-dev-server": "^3.3.1"
+  }
+}
